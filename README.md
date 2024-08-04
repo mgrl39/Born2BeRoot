@@ -1,4 +1,4 @@
-# Born2BeRoot
+# Born2BeRoot Tutorial Rocky
 
 1. Descarga de la maquina virtual.
 
