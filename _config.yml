@@ -1,4 +1,20 @@
-remote_theme: jerryc127/hexo-theme-butterfly
-# testing style
+remote_theme: abhinavs/moonwalk
+
 theme_config:
   appearance: "dark"
+navbar_entries:
+  - title: "Inicio"
+    url: "/"
+  - title: "Blog"
+    url: "/blog"
+  - title: "Sobre mí"
+    url: "/about"
+footer_entries:
+  - title: "Privacidad"
+    url: "/privacy"
+  - title: "Contacto"
+    url: "/contact"
+social_media:
+  facebook_url: "https://facebook.com/tu-perfil"
+  twitter_url: "https://twitter.com/tu-perfil"
+  github_url: "https://github.com/tu-perfil"
