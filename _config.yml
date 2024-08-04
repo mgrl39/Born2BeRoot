@@ -1,4 +1,4 @@
-remote_theme: abhinavs/moonwalk
+remote_theme: jerryc127/hexo-theme-butterfly
 # testing style
 theme_config:
   appearance: "dark"
