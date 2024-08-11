@@ -213,7 +213,9 @@ disk_use=$(df -h --total | awk '/^total/ {print $3}')
 disk_percent=$(df -h --total | awk '/^total/ {print $5}')
 
 # CPU Load
-cpu_load=$(awk '{u=$1; s=$2; i=$4; print 100 - i}' <(grep 'cpu ' /proc/stat))
+cpu1=$(vmstat 1 2 | tail -1 | awk '{printf $15}')
+cpu_op=$(expr 100 - $cpu1)
+cpu_fin=$(printf "%.1f" $cpu_op)
 
 # Last Boot
 last_boot=$(who -b | awk '{print $3, $4}')
@@ -239,7 +241,7 @@ wall "	Architecture: $arch
 	vCPU: $cpuv
 	Memory Usage: $ram_use/${ram_total}MB ($ram_percent%)
 	Disk Usage: $disk_use/$disk_total ($disk_percent)
-	CPU load: $cpu_load%
+	CPU load: $cpu_fin%
 	Last boot: $last_boot
 	LVM use: $lvmu
 	Connections TCP: $tcp_conn ESTABLISHED
