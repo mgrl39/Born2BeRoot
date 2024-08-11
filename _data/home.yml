@@ -1,12 +1,9 @@
 navbar_entries:
-  - title: about
-    url: about
-
-  - title: blog
-    url: blog
+  - title: github
+    url: https://www.github.com/mgrl39
 
   - title: website
-    url: https://www.abhinav.co
+    url: https://www.mgrl39.github.io
 
 project_entries:
   - title: Project 1
@@ -65,6 +62,7 @@ footer_entries:
 
   - title: feed
     url: feed.xml
+  
 
 misc_entries:
   - title: this is an example vertical list
