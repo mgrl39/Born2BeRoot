@@ -1,4 +1,4 @@
-# Born2BeRoot Tutorial Rocky
+# Born2BeRoot Debian Tutorial
 
 1. Descargar la maquina virtual
 
