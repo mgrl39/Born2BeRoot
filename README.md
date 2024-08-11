@@ -10,7 +10,7 @@ http://dl.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9-latest-x86_64-minimal.i
 
 3. 
 
-![Imagen 001](b2br_img_001.png)
+![Imagen 001](steps/b2br_img_001.png)
 ![Imagen 002](b2br_img_002.png)
 ![Imagen 003](b2br_img_003.png)
 ![Imagen 004](b2br_img_004.png)
