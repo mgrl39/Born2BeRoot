@@ -191,4 +191,59 @@
 ![Imagen 187](steps/b2br_img_187.png)
 ![Imagen 188](steps/b2br_img_188.png)
 
+### Script
+```bash
+#!/bin/bash
 
+# Architecture
+arch=$(uname -a)
+
+# CPU Info
+cpuf=$(lscpu | awk '/Socket\(s\):/ {print $2}')
+cpuv=$(lscpu | awk '/^CPU\(s\):/ {print $2}')
+
+# RAM Info
+ram_total=$(free -m | awk '/Mem:/ {print $2}')
+ram_use=$(free -m | awk '/Mem:/ {print $3}')
+ram_percent=$(free -m | awk '/Mem:/ {printf("%.2f"), $3/$2*100}')
+
+# Disk Info
+disk_total=$(df -h --total | awk '/^total/ {print $2}')
+disk_use=$(df -h --total | awk '/^total/ {print $3}')
+disk_percent=$(df -h --total | awk '/^total/ {print $5}')
+
+# CPU Load
+cpu_load=$(awk '{u=$1; s=$2; i=$4; print 100 - i}' <(grep 'cpu ' /proc/stat))
+
+# Last Boot
+last_boot=$(who -b | awk '{print $3, $4}')
+
+# LVM Usage
+lvmu=$(lsblk | grep -q "lvm" && echo "yes" || echo "no")
+
+# TCP Connections
+tcp_conn=$(ss -tan | grep -c ESTAB)
+
+# Logged Users
+user_log=$(who | wc -l)
+
+# Network Info
+ip=$(hostname -I)
+mac=$(ip link show | awk '/link\/ether/ {print $2}')
+
+# Sudo Commands
+sudo_cmd=$(journalctl _COMM=sudo | grep COMMAND | wc -l)
+
+wall "	Architecture: $arch
+	CPU physical: $cpuf
+	vCPU: $cpuv
+	Memory Usage: $ram_use/${ram_total}MB ($ram_percent%)
+	Disk Usage: $disk_use/$disk_total ($disk_percent)
+	CPU load: $cpu_load%
+	Last boot: $last_boot
+	LVM use: $lvmu
+	Connections TCP: $tcp_conn ESTABLISHED
+	User log: $user_log
+	Network: IP $ip ($mac)
+	Sudo: $sudo_cmd cmd"
+```
