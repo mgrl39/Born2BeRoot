@@ -190,4 +190,13 @@ http://dl.rockylinux.org/pub/rocky/9/isos/x86_64/Rocky-9-latest-x86_64-minimal.i
 ![Imagen 178](steps/b2br_img_178.png)
 ![Imagen 179](steps/b2br_img_179.png)
 ![Imagen 180](steps/b2br_img_180.png)
+![Imagen 181](steps/b2br_img_181.png)
+![Imagen 182](steps/b2br_img_182.png)
+![Imagen 183](steps/b2br_img_183.png)
+![Imagen 184](steps/b2br_img_184.png)
+![Imagen 185](steps/b2br_img_185.png)
+![Imagen 186](steps/b2br_img_186.png)
+![Imagen 187](steps/b2br_img_187.png)
+![Imagen 188](steps/b2br_img_188.png)
+
 
