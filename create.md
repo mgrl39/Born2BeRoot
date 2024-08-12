@@ -41,5 +41,9 @@ Al abrir VirtualBox, te encontrarás con un menú que puede parecer un poco conf
    ![Imagen 006](steps/b2br_img_006.png)
 
 7. **Cambiar a "Bridged Adapter"**:
-   - Cambia la configuración de red a **Bridged Adapter**. Esto permitirá que la máquina virtual se conecte a la misma red que el equipo anfitrión, haciéndola funcionar como si fuera un PC más en la red real.
+   - Cambia la configuración de red a **Bridged Adapter**. Esto permitirá que la máquina virtual se conecte a la misma red que el equipo anfitrión, haciéndola funcionar como si fuera un PC más en la red real. Finalmente, le damos a OK.
    ![Imagen 007](steps/b2br_img_007.png)
+
+8. **Inicio de la máquina**:
+   - Ahora sí, iniciamos dándole al **Start**
+   ![Imagen 006](steps/b2br_img_006.png)
