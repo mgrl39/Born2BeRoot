@@ -76,15 +76,16 @@ remote_theme: sighingnow/jekyll-gitbook
 
 #exclude:
 #  - _drafts
-
-# collections:
-# pages:
-#    output: true
-#    permalink: /:collection/:path/
-#  others:
-#    output: true
-#    permalink: /:collection/:path/
-
+collections:
+  pages:
+    output: true
+    sort_by: date
+    permalink: /:collection/:year-:month-:day-:title:output_ext
+  others:
+    output: true
+    sort_by: date
+    permalink: /:collection/:year-:month-:day-:title:output_ext
+    
 ordered_collections:
   - posts
 #  - pages
