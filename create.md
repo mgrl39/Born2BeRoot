@@ -26,7 +26,7 @@ Al abrir VirtualBox, te encontrarás con un menú que puede parecer un poco conf
    - En este panel, escribe el nombre de tu máquina virtual. Yo he elegido `Born2BeRoot`.
    - **Es crucial cambiar la ubicación de la carpeta** para evitar llenar el directorio `home`. Selecciona la carpeta `~/sgoinfre`, es decir, `/home/usuario/sgoinfre`, y dentro de ella, la carpeta `born2beroot` que creaste anteriormente. 
    - Para la imagen ISO, selecciona el archivo que descargaste. Además, marca la casilla para omitir la instalación desatendida.
-   ![Imagen 001](steps/b2br_img_001.png)
+   ![Imagen 001](/steps/b2br_img_001.png)
 
 3. **Configurar la memoria RAM y los núcleos de CPU**:
    - Ajusta la memoria RAM de la máquina virtual. Yo reduje la RAM a 1024 MB desde los 2048 MB predeterminados. 
