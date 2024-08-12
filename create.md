@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Create"
+---
+
 **Descarga de la ISO de Debian y Configuración del Entorno**
 
 El primer paso es descargar la ISO oficial de Debian desde su página web. Para organizar la configuración de la máquina virtual y evitar llenar el espacio limitado del directorio `home` (que solo tiene 5GB disponibles), crearemos una carpeta en `~/sgoinfre` llamada `born2beroot`. Aquí guardaremos tanto la ISO como la carpeta de nuestra máquina virtual.
