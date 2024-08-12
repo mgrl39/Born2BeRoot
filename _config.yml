@@ -87,8 +87,8 @@ collections:
 
 ordered_collections:
   - posts
-  - pages
-  - others
+#  - pages
+#  - others
 
 page_width: 800px
 
@@ -96,8 +96,8 @@ destination:      ./_site
 incremental:      false
 regenerate:       true
 
-plugins:
-  - jekyll-feed
-  - jekyll-readme-index
-  - jemoji
+#plugins:
+#  - jekyll-feed
+#  - jekyll-readme-index
+#  - jemoji
   
