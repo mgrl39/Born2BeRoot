@@ -7,6 +7,7 @@ Ejecuta el siguiente comando para crear la carpeta y descargar la ISO:
 ```shell
 cd ~/sgoinfre && mkdir -p born2beroot && cd born2beroot && wget https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-12.6.0-amd64-netinst.iso
 ```
+![Imagen 000](steps/b2br_img_000.png)
 ![Imagen 001](steps/b2br_img_001.png)
 ![Imagen 002](steps/b2br_img_002.png)
 ![Imagen 003](steps/b2br_img_003.png)
