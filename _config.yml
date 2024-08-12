@@ -1,28 +1,103 @@
 #remote_theme: abhinavs/moonwalk
-remote_theme: sighingnow/jekyll-gitbook
+#remote_theme: sighingnow/jekyll-gitbook
 
-toc:
-    enabled: true
+#toc:
+#    enabled: true
 
-ordered_collections:
-  - posts
+#ordered_collections:
+#  - posts
 #  - pages
 #  - others
   
-theme_config:
-  appearance: "dark" # can be "light", "dark" or "auto"
-  appearance_toggle: true # if appearance can be switched by user
-  back_home_text: "home.." # customize text for homepage link in post layout
-  date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: true # show blog description
-  show_navbar: true # show horizontal navbar
-  show_footer: true # show footer links in home page,add in _data/home.yml
-  show_copyright: false # show copyright notice in footer
-  # following keys are using to create home layout
-  show_projects: true # show projects as cards, add in _data/home.yml
-  show_blog: true # show blog posts added in _posts
-  show_old_projects: true # show old projects as cards, add in _data/home.yml
-  show_misc_list: true  # show generic vertical list for misc details, add _data/home.yml
-  show_reading_time: true # show number of words and reading time in the blog posts
-  show_tags: true # show tags in a blog posts
+# theme_config:
+#  appearance: "dark" # can be "light", "dark" or "auto"
+#  appearance_toggle: true # if appearance can be switched by user
+#  back_home_text: "home.." # customize text for homepage link in post layout
+#  date_format: "%Y-%m-%d" # customize how date is formatted
+#  show_description: true # show blog description
+#  show_navbar: true # show horizontal navbar
+#  show_footer: true # show footer links in home page,add in _data/home.yml
+#  show_copyright: false # show copyright notice in footer
+#  # following keys are using to create home layout
+#  show_projects: true # show projects as cards, add in _data/home.yml
+#  show_blog: true # show blog posts added in _posts
+#  show_old_projects: true # show old projects as cards, add in _data/home.yml
+#  show_misc_list: true  # show generic vertical list for misc details, add _data/home.yml
+#  show_reading_time: true # show number of words and reading time in the blog posts
+#  show_tags: true # show tags in a blog posts
+  
+
+# Configurations
+title:            Born2BeRoot
+longtitle:        Born2BeRoot Guia Debian 2024
+author:           mgrl39
+description: >
+  Guia Born2beroot 42Barcelona
+
+version:          1.0
+gitbook_version:  3.2.3
+
+url:              'https://mgrl39.github.io'
+baseurl:          '/jekyll-gitbook'
+rss:              RSS
+
+# bootstrap: use the remote theme for the site itself
+remote_theme: sighingnow/jekyll-gitbook
+
+toc:
+  enabled: true
+  h_min:   1
+  h_max:   3
+
+# customize the link favicon in header, will be {{site.baseurl}}/{{site.favicon_path}}
+favicon_path:     /assets/gitbook/images/favicon.ico
+
+# markdown render engine.
+markdown:         kramdown
+kramdown:
+  auto_ids:               true
+  input:                  GFM
+  math_engine:            mathjax
+  smart_quotes:           lsquo,rsquo,ldquo,rdquo
+  toc_levels:             1..6
+  syntax_highlighter:     rouge
+  syntax_highlighter_opts:
+    guess_lang:           true
+
+syntax_highlighter_style: colorful
+
+markdown_ext:             markdown,mkdown,mkdn,mkd,md
+
+# Permalinks
+permalink:                /:categories/:year-:month-:day-:title:output_ext
+
+# Disqus comments
+# disqushandler:            sighingnow
+
+exclude:
+  - _drafts
+
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:path/
+  others:
+    output: true
+    permalink: /:collection/:path/
+
+ordered_collections:
+  - posts
+  - pages
+  - others
+
+page_width: 800px
+
+destination:      ./_site
+incremental:      false
+regenerate:       true
+
+plugins:
+  - jekyll-feed
+  - jekyll-readme-index
+  - jemoji
   
