@@ -8,7 +8,6 @@ layout: post
 
 ![Imagen 197](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_197.png)
 ![Imagen 198](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_198.png)
-![Imagen 199](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_199.png)
 ![Imagen 200](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_200.png)
 ![Imagen 202](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_202.png)
 ![Imagen 203](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_203.png)
