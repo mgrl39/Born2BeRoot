@@ -32,7 +32,7 @@ title:            Born2BeRoot
 longtitle:        Born2BeRoot Guia Debian 2024
 author:           mgrl39
 description: >
-  Guia Born2beroot 42Barcelona
+   A step-by-step spanish tutorial to set up a Debian virtual machine with a fully functional WordPress site, utilizing Lighttpd, MariaDB, PHP, and Litespeed for optimal performance. 
 
 # version:          1.0
 # gitbook_version:  3.2.3
