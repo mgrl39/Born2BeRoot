@@ -53,7 +53,22 @@ Reload privilege tables now? [Y/n] **Y**
 
 ![Imagen 210](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_210.png)
 ![Imagen 211](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_211.png)
+```bash
+mariadb
+```
+```sql
+CREATE DATABASE wp_database;
+SHOW DATABASES;
+CREATE USER 'meghribe'@'localhost' IDENTIFIED BY '12345';
+GRANT ALL PRIVILEGES ON wp_database.* TO 'meghribe'@'localhost';
+FLUSH PRIVILEGES;
+exit
+```
 ![Imagen 216](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_216.png)
+
+```bash
+sudo apt install php-cgi php-mysql -y
+```
 ![Imagen 218](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_218.png)
 ![Imagen 219](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_219.png)
 ![Imagen 220](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_220.png)
