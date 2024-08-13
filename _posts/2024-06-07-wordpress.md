@@ -31,7 +31,6 @@ sudo wget https://es.wordpress.org/latest-es_ES.zip
 ![Imagen 204](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_204.png)
 ![Imagen 205](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_205.png)
 ![Imagen 208](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_208.png)
-![Imagen 209](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_209.png)
 ![Imagen 210](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_210.png)
 ![Imagen 211](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_211.png)
 ![Imagen 216](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_216.png)
