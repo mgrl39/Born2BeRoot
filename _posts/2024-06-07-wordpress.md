@@ -24,9 +24,21 @@ sudo apt install wget zip -y
 cd /var/www && sudo wget https://es.wordpress.org/latest-es_ES.zip
 ```
 ![Imagen 202](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_202.png)
+
+```bash
+sudo unzip latest-es_ES.zip
+```
 ![Imagen 203](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_203.png)
 ![Imagen 204](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_204.png)
+
+```bash
+sudo mv html/ html_old && sudo mv wordpress/ html && sudo chmod -R 755 html && ls
+```
 ![Imagen 205](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_205.png)
+
+```bash
+sudo apt install mariadb-server -y
+```
 ![Imagen 208](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_208.png)
 ![Imagen 210](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_210.png)
 ![Imagen 211](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_211.png)
