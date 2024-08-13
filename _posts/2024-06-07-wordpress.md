@@ -21,10 +21,7 @@ sudo apt install wget zip -y
 ![Imagen 200](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_200.png)
 
 ```bash
-cd /var/www
-```
-```bash
-sudo wget https://es.wordpress.org/latest-es_ES.zip
+cd /var/www && sudo wget https://es.wordpress.org/latest-es_ES.zip
 ```
 ![Imagen 202](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_202.png)
 ![Imagen 203](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_203.png)
