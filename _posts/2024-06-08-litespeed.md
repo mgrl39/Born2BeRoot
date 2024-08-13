@@ -5,6 +5,8 @@ date: 2024-06-08
 category: Jekyll
 layout: post
 ---
+
+
 ![Imagen 238](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_238.png)
 ![Imagen 237](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_237.png)
 ![Imagen 240](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_240.png)
