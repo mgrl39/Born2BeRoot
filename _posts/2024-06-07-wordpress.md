@@ -40,6 +40,17 @@ sudo mv html/ html_old && sudo mv wordpress/ html && sudo chmod -R 755 html && l
 sudo apt install mariadb-server -y
 ```
 ![Imagen 208](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_208.png)
+```bash
+sudo mysql_secure_installation
+```
+
+Switch to unix_socket authentication [Y/n] **N**
+Change the root password? [Y/n] **N**
+Remove anonymous users? [Y/n] **Y**
+Disallow root login remotely? [Y/n] **Y**
+Remove test database and acces to it? [Y/n] **Y**
+Reload privilege tables now? [Y/n] **Y**
+
 ![Imagen 210](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_210.png)
 ![Imagen 211](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_211.png)
 ![Imagen 216](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_216.png)
