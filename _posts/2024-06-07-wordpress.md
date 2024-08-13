@@ -28,7 +28,6 @@ layout: post
 ![Imagen 221](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_221.png)
 ![Imagen 222](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_222.png)
 ![Imagen 223](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_223.png)
-![Imagen 224](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_224.png)
 ![Imagen 225](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_225.png)
 ![Imagen 226](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_226.png)
 ![Imagen 227](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_227.png)
