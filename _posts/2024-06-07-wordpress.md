@@ -101,7 +101,9 @@ ip -c a
 ![Imagen 230](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_230.png)
 ![Imagen 232](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_232.png)
 ![Imagen 233](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_233.png)
+
 <div style="text-align: center;">
     <img src="https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_235.png" alt="Login Wordpress, Imagen 235"/>
 </div>
+
 ![Imagen 236](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_236.png)
