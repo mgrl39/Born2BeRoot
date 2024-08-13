@@ -5,10 +5,27 @@ date: 2024-06-07
 category: Jekyll
 layout: post
 ---
-
+```bash
+sudo apt install lighttpd -y
+```
 ![Imagen 197](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_197.png)
+
+```bash
+sudo ufw allow 80 && sudo ufw status
+```
 ![Imagen 198](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_198.png)
+
+```bash
+sudo apt install wget zip -y
+```
 ![Imagen 200](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_200.png)
+
+```bash
+cd /var/www
+```
+```bash
+sudo wget https://es.wordpress.org/latest-es_ES.zip
+```
 ![Imagen 202](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_202.png)
 ![Imagen 203](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_203.png)
 ![Imagen 204](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_204.png)
