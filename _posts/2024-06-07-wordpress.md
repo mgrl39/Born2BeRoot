@@ -41,7 +41,6 @@ cd /var/www && sudo wget https://es.wordpress.org/latest-es_ES.zip
 ![Imagen 226](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_226.png)
 ![Imagen 227](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_227.png)
 ![Imagen 230](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_230.png)
-![Imagen 231](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_231.png)
 ![Imagen 232](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_232.png)
 ![Imagen 233](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_233.png)
 ![Imagen 235](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_235.png)
