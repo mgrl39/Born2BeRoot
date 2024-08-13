@@ -70,12 +70,32 @@ exit
 sudo apt install php-cgi php-mysql -y
 ```
 ![Imagen 218](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_218.png)
+```bash
+cd /var/www/html && ls
+```
 ![Imagen 219](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_219.png)
+```bash
+cp wp-config-sample.php wp-config.php
+```
 ![Imagen 220](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_220.png)
+```bash
+vim wp-config.php
+```
 ![Imagen 221](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_221.png)
+```bash
+vim wp-config.php
+```
 ![Imagen 222](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_222.png)
 ![Imagen 223](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_223.png)
+```bash
+sudo lighty-enable-mod fastcgi
+sudo lighty-enable-mod fastcgi-php
+service lighttpd force-reload
+```
 ![Imagen 225](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_225.png)
+```bash
+ip -c a
+```
 ![Imagen 226](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_226.png)
 ![Imagen 227](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_227.png)
 ![Imagen 230](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_230.png)
