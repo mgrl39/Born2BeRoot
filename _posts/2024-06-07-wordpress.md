@@ -209,6 +209,9 @@ ip -c a
 
 - **Finalización**: Una vez completada la configuración inicial, podrás iniciar sesión en tu nuevo sitio de WordPress utilizando el nombre de usuario y la contraseña que creaste durante la configuración.
 
+```bash
+http://IP/wp-admin/
+```
 ![Imagen 2352](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_2352.png)
 
 ![Imagen 236](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_236.png)
