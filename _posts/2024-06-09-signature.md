@@ -6,7 +6,7 @@ category: Jekyll
 layout: post
 ---
 Llega el punto de generar el Signature, el signature es .... para poder realizar eso utlizaremos el comando `sha1sum` (en Linux) y pondremos el nombre de nuestro .vdi.
-Lo que haremos es, primeramente apagar la maquina virtual, dandole a la x.
+Lo que haremos es, primeramente apagar la maquina virtual, dandole a la ❌.
 <div style="text-align: center;">
     <img src="https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_252.png" alt="Imagen 252"/>
 </div>
