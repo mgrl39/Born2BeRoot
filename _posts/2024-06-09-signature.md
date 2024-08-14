@@ -8,7 +8,7 @@ layout: post
 
 
 <div style="text-align: center;">
-    <img src="[https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_253.png](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_252.png)" alt="Imagen 252"/>
+    <img src="[https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_252.png](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_252.png)" alt="Imagen 252"/>
 </div>
 
 ![Imagen 253](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_253.png)
