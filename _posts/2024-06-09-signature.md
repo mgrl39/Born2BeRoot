@@ -12,4 +12,7 @@ layout: post
 
 ![Imagen 253](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_253.png)
 
+```bash
+cd ~/sgoinfre/born2beroot/Born2BeRoot && pwd && sha1sum *.vdi > signature.txt && ls && cat signature.txt
+```
 ![Imagen 254](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_254.png)
