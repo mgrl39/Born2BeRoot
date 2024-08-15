@@ -51,14 +51,17 @@ sha1sum Born2BeRoot.vdi > signature.txt
 Si creaste la carpeta en `~/sgoinfre` usando un comando y le diste el nombre `Born2BeRoot`, puedes ejecutar el siguiente comando para realizar todo el proceso de una vez:
 
 ```bash
-cd ~/sgoinfre/born2beroot/Born2BeRoot && pwd && sha1sum *.vdi > signature.txt && ls && cat signature.txt
+cd ~/sgoinfre/born2beroot/Born2BeRoot && pwd && sha1sum *.vdi | awk '{print $1}' > signature.txt && ls && cat signature.txt
 ```
 
-Este comando:
+**Explicación**:
 - Cambia al directorio que contiene el archivo `.vdi`.
 - Muestra la ruta actual (`pwd`).
 - Genera la signature y la guarda en `signature.txt`.
 - Lista los archivos en el directorio (`ls`).
 - Muestra el contenido del archivo `signature.txt` (`cat signature.txt`).
+- `sha1sum *.vdi` genera el hash y el nombre del archivo.
+- `| awk '{print $1}'` toma la salida de `sha1sum` y solo selecciona la primera columna, que es el hash.
+- `> signature.txt` redirige esa salida (solo el hash) al archivo `signature.txt`.
 
 ![Imagen 254](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_254.png)
