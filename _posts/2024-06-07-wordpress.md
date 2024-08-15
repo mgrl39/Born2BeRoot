@@ -155,8 +155,9 @@ sudo apt install php-cgi php-mysql -y
 
 
 #### 9. Configuración wp-config
+```bash
 cd /var/www/html && ls
-
+```
 
 
    - **Explicación**:
@@ -166,9 +167,9 @@ cd /var/www/html && ls
 
 ![Imagen 219](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_219.png)
 
-bash
+```bash
 cp wp-config-sample.php wp-config.php
-
+```
 
 
    - **Explicación**:
