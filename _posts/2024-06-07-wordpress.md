@@ -231,13 +231,6 @@ ip -c a
 ![Imagen 227](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_227.png)
 ![Imagen 230](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_230.png)
 ![Imagen 232](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_232.png)
-![Imagen 233](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_233.png)
-
-- **Finalización**: Una vez completada la configuración, podrás iniciar sesión en tu nuevo sitio de WordPress con las credenciales que creaste durante el proceso de configuración.
-
-```bash
-http://IP/wp-admin/
-```
-
 ![Imagen 2352](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_2352.png)
+![Imagen 233](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_233.png)
 ![Imagen 236](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_236.png)
