@@ -43,6 +43,7 @@ Para guardar la signature en un archivo de texto, puedes usar:
 ```bash
 sha1sum Born2BeRoot.vdi > signature.txt
 ```
+Entra y solo deja el numero, sera algo asi: `e3325e26ebf96d3a5d1f009328d6bf6b85b0238a`
 
 ---
 
