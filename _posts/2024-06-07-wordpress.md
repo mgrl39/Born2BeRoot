@@ -89,7 +89,7 @@ sudo chmod -R 755 html
 
 #### 6. Instalación y Configuración de MariaDB
 
-Instala MariaDB y asegura la instalación:
+Instala MariaDB y asegura la instalación, cuando uses `sudo mysql_secure_installation` te pedirá la password de root:
 
 ```bash
 sudo apt install mariadb-server -y
