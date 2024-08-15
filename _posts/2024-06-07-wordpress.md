@@ -153,7 +153,47 @@ sudo apt install php-cgi php-mysql -y
 
 ![Imagen 218](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_218.png)
 
-#### 9. Configuración Final de Lighttpd para PHP
+
+#### 9. Configuración wp-config
+cd /var/www/html && ls
+
+
+
+   - **Explicación**:
+     - **cd /var/www/html**: Cambia al directorio donde ahora están los archivos de WordPress.
+     - **ls**: Lista los archivos en el directorio, confirmando que todo está en su lugar.
+
+
+![Imagen 219](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_219.png)
+
+bash
+cp wp-config-sample.php wp-config.php
+
+
+
+   - **Explicación**:
+     - **cp wp-config-sample.php wp-config.php**: Copia el archivo de configuración de ejemplo de WordPress, wp-config-sample.php, a wp-config.php, que es el archivo real que WordPress usará.
+     - **¿Por qué copiar este archivo?**: wp-config.php es donde se configuran las conexiones a la base de datos y otras configuraciones esenciales para que WordPress funcione.
+
+
+![Imagen 220](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_220.png)
+
+```bash
+vim wp-config.php
+```
+
+   - **Explicación**:
+     - **vim wp-config.php**: Abre el archivo de configuración wp-config.php en el editor de texto Vim para editarlo.
+     - **¿Qué cambiar?**: Aquí se configurarán los detalles de la base de datos, como el nombre de la base de datos (wp_database), el usuario (meghribe), y la contraseña (12345).
+
+
+![Imagen 221](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_221.png)
+
+![Imagen 222](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_222.png)
+![Imagen 223](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_223.png)
+
+
+#### 10. Configuración Final de Lighttpd para PHP
 
 Habilita FastCGI y recarga Lighttpd:
 
@@ -169,7 +209,7 @@ sudo service lighttpd force-reload
 
 ![Imagen 225](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_225.png)
 
-#### 10. Verificación de la Dirección IP
+#### 11. Verificación de la Dirección IP
 
 Obtén la dirección IP del servidor:
 
@@ -182,7 +222,7 @@ ip -c a
 
 ![Imagen 226](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_226.png)
 
-#### 11. Finalización de la Instalación de WordPress
+#### 12. Finalización de la Instalación de WordPress
 
 1. **Accede a WordPress**: Abre un navegador y navega a `http://IP`, donde `IP` es la dirección IP de tu servidor.
 2. **Configuración de WordPress**: Sigue el asistente de configuración de WordPress para crear un usuario administrador y configurar el sitio.
