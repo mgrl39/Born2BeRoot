@@ -6,12 +6,6 @@ category: Jekyll
 layout: post
 ---
 
-### ✍️ Generación de la Signature para tu Máquina Virtual
-
-Para garantizar la integridad y autenticidad de tu archivo de máquina virtual `.vdi`, necesitas generar una firma única usando el comando `sha1sum`. A continuación, te muestro cómo hacerlo paso a paso.
-
----
-
 ### 1. **Apagar la Máquina Virtual**
 
 Antes de generar la signature, asegúrate de que la máquina virtual esté completamente apagada. Haz clic en el botón ❌ para cerrar la máquina virtual.
