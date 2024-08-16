@@ -65,4 +65,9 @@ cd ~/sgoinfre/born2beroot/Born2BeRoot && pwd && sha1sum *.vdi | awk '{print $1}'
 - `| awk '{print $1}'` toma la salida de `sha1sum` y solo selecciona la primera columna, que es el hash.
 - `> signature.txt` redirige esa salida (solo el hash) al archivo `signature.txt`.
 
+Sin usar el comando podriamos hacer algo asi...
 ![Imagen 254](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_254.png)
+![Imagen 255](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_255.png)
+
+Usando el comando...
+![Imagen 256](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_256.png)
