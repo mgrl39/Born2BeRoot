@@ -194,6 +194,34 @@ vim wp-config.php
 ![Imagen 223](https://raw.githubusercontent.com/mgrl39/Born2BeRoot/main/steps/b2br_img_223.png)
 
 
+```bash
+$mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
+
+// Comprobar conexión
+if ($mysqli->connect_error) {
+  die("Error de conexión:" . $mysqli->connect_error);
+}
+
+// Obtener la IP de la máquina
+$ip = $_SERVER['SERVER_ADDR'];
+
+// Construir la URL con la IP 
+$siteurl = 'http://' . $ip;
+$home = 'http://' . $ip;
+
+// Actualizar siteurl y home en la base de datos
+$update_siteurl = $mysqli->prepare("UPDATE wp_options SET option_value = ? WHERE option_name = 'siteurl'");
+$update_siteurl->bind_param('s', $siteurl);
+$update_siteurl->execute();
+
+$update_home = $mysqli->prepare("UPDATE wp_options SET option_value = ? WHERE option_name = 'home'");
+$update_home->bind_param('s', $home);
+$update_home->execute();
+
+$update_siteurl->close();
+$update_home->close();
+$mysqli->close();
+```
 #### 10. Configuración Final de Lighttpd para PHP
 
 Habilita FastCGI y recarga Lighttpd:
